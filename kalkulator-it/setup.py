@@ -14,5 +14,6 @@ setup(
     entry_points = '''
         [console_scripts]
         calculate=main:calculate
-    '''
+    ''',
+    test_suite='tests'
 )
