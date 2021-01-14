@@ -18,8 +18,8 @@ Before follow installing instructions, make sure you have to clone **pythonapp**
 # How To Use
 The idea is simple, this app need two options and one argument.  
 The options are:
-1. "-s" or "--source"
-2. "-d" or "--destination"
+1. "-s" or "--src"
+2. "-d" or "--dst"
 
 You should fill it, with valid parameters (bin, dec, oct, hex), and finally put your number as an argument.
 
