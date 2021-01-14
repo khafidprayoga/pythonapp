@@ -9,3 +9,4 @@ def to_oct(number):
 def to_hex(number):
     """Convert decimal to hexadecimal"""
     return hex(number)[2:]
+    

@@ -9,3 +9,4 @@ def to_bin(number):
 def to_hex(number):
     """Convert octal to hexadecimal"""
     return hex(to_dec(number))[2:]
+    

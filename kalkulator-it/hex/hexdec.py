@@ -4,7 +4,6 @@ def to_dec(number):
 
 def to_bin(number):
     """Convert hexadecimal to binary"""
-    
     return bin(to_dec(number))[2:]
 
 def to_oct(number):
