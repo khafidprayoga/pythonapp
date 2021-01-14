@@ -6,6 +6,7 @@ from oct import octal
 from hex import hexdec
 
 @click.command()
+@click.version_option()
 @click.option('-s','--src','source',type=str,required=True,
               help='Source number (dec,bin,oct,hex)')
 @click.option('-d','--dst','destination',type=str,required=True,
@@ -60,5 +61,5 @@ def calculate(source, destination, number):
             click.echo('Destination error, not a valid value.')
             sys.exit(2)
     else:
-        click.echo('Source error')
+        click.echo('Source error, not a valid value.')
         sys.exit(1)
