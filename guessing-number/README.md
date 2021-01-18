@@ -1,5 +1,5 @@
 # About
-This app built with random  builtins module
+This app built with "random"  builtins module
 
 # How to use
 First, you need to run main.py script.
